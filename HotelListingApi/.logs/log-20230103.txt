@@ -1,0 +1,5 @@
+2023-01-03 00:23:04.975 +03:00 [INF] Now listening on: https://localhost:7088
+2023-01-03 00:23:05.064 +03:00 [INF] Now listening on: http://localhost:5088
+2023-01-03 00:23:05.078 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-01-03 00:23:05.080 +03:00 [INF] Hosting environment: Development
+2023-01-03 00:23:05.081 +03:00 [INF] Content root path: D:\EĞİTİM\Api\HotelListingApi\
