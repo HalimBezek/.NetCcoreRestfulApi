@@ -28,7 +28,7 @@ builder.Host.UseSerilog((context,loggerConfiguration)=>loggerConfiguration.Write
 
 builder.Services.AddAutoMapper(typeof(MapperConfig));
 
-builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(IGenericRepository<>));
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped<ICountryRepository, CountriesRepository>();
 
 var app = builder.Build();
