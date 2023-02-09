@@ -44,12 +44,12 @@ namespace HotelListingApi.Repository
             return data;
         }
 
-        public async Task<IEnumerable<T>> GetAsync(int? id)
+        public async Task<T> GetAsync(int? id)
         {
             if (id is null)
                 return null;
 
-            return (IEnumerable<T>)await _context.Set<T>().FindAsync(id);
+            return await _context.Set<T>().FindAsync(id); ;
         }
 
         public async Task UpdateAsync(T entity)
